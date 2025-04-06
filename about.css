@@ -1,0 +1,25 @@
+body {
+    background-image:  url(img/wiz-maven-page-002.jpg) ;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+img {
+    opacity: 0.2;
+}
+
+h4 {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 2.5rem;
+    font-weight:bolder;
+    text-transform: capitalize;
+    color: azure;
+    text-align: center;
+}
+p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 100;
+    font-size: 1.5rem;
+    color: rgb(134, 161, 152);
+}

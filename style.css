@@ -1,0 +1,326 @@
+body{
+    background-color: rgb(159, 159, 161);
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    font-family: Arial, Helvetica, sans-serif "Segoe UI", "Fira Sans", "Droid Sans", "Helvetica Neue",;
+    margin: 0;
+    padding: 0;
+}
+
+#welcome {
+        z-index: 999;
+        margin: 0 auto;
+        left: 0;
+        right: 0;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        position: absolute;
+        top: 10vh;
+        border-radius: 1rem;
+        background: #fff;
+        display: flex;
+        width: 54.5rem;
+        padding: 3rem;
+        align-items: center;
+        gap: 1.5rem;
+        background-color: rgb(79, 126, 187);
+        color: #fff;
+}
+
+
+.logo-top-left {
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding: 10px;
+}
+
+.logo-bottom-right {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  padding: 10px;
+}
+
+.logo-top-left img, .logo-bottom-right img {
+  width: 1.5rem; 
+  height: 1.5rem;
+}
+
+.content {
+    font-size: 2rem;
+    padding-bottom: 0.2rem;
+}
+
+.wiz {
+    font-style:oblique
+}
+
+.p {
+    font-size: 1.5rem;
+}
+.ww{
+        width: 100%;
+        display: flex;
+        flex-direction:column;
+        align-items: center;
+        gap: 1rem;
+        flex: 1 0 0;
+}
+
+.welcomeimg {
+    height: 5rem;
+    width:  5rem;
+}
+
+.hide {
+    height: 1.5rem;
+    width: 1.5rem;
+    cursor: pointer;
+    position: absolute;
+    right: 1rem;
+    top: 1rem;
+    color: #fff;
+}
+
+#home {
+position: relative;
+width: 100%;
+display:flex;
+flex-wrap: wrap;
+padding: 7.5rem 3.75rem;
+justify-content: space-around;
+align-items: center;
+gap: 5rem;
+}
+
+#home p {
+    color: #0c0c0c;
+    text-align: center;
+    font-family: "Libre Baskerville";
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    z-index: 999;
+}
+
+.room-left {
+    width: 35%;
+    margin: 200px;
+    margin-left: 1px;
+    margin-bottom: 1px;
+    padding: 20px;
+  /**  border: 1px dashed #000;
+    border-radius: 10px; **/
+    box-shadow:0 0 10px rgba(0, 0, 0, 0.1); 
+}
+
+.room-right {
+    width: 15%;
+    margin: 200px;
+    margin-left: 1px;
+    margin-top: 10px;
+    padding: 20px;
+  /**  border: 1px dashed #000; **/
+    border-radius: 10px; 
+    box-shadow:0 0 10px rgba(0, 0, 0, 0.1); 
+} 
+
+#headermenulist {
+    list-style: none;
+    display: flex;
+    flex-direction: wrap;
+    justify-content: space-between;
+}
+
+.menulist{
+    
+    font-family: 'Helvetica Neue' sans-serif;
+    font-style: italic;
+    text-transform: lowercase;
+}
+
+.list1 {
+    color: rgb(5, 5, 231);
+    background-color: transparent;
+    text-decoration: none;
+    border: #081270;
+    border-style: inset;
+    border-radius: 1px;
+    list-style: none;
+    text-transform: lowercase;
+    font-size: 1.2em;
+    font-style: italic;
+    margin-bottom: 7px;
+    flex-basis: 30%;
+}
+
+.list2 {
+    color: rgb(5, 5, 231);
+    background-color: transparent;
+    text-decoration: none;
+    border: #081270;
+    border-style: inset;
+    border-radius: 1px;
+    list-style: none;
+    text-transform: lowercase;
+    font-size: 1.2em;
+    font-style: italic;
+    margin-bottom: 7px;
+    flex-basis: 30%;
+}
+
+.list3 {
+  color: rgb(5, 5, 231);
+  background-color: transparent;
+  text-decoration: none;
+  border: #081270;
+  border-style: inset;
+  border-radius: 1px;
+  list-style: none;
+  text-transform: lowercase;
+  font-size: 1.2em;
+  font-style: italic;
+  margin-bottom: 7px;
+  flex-basis: 30%;
+}
+
+a:link {
+    color: rgb(5, 5, 231);
+    background-color: transparent;
+    text-decoration: none;
+    border: #081270;
+    border-radius: 5px;
+}
+
+a:visited {
+    color: rgb(5, 8, 238);
+    background-color: transparent;
+    text-decoration: none;
+    border: #081270;
+    border-radius: 5px;
+}
+a:hover {
+    color: rgb(0, 255, 21);
+    background-color: transparent;
+    text-decoration: none;
+    border: #081270;
+    border-radius: 5px;
+
+}
+a:active {
+    color: rgb(153, 11, 11);
+    background-color: transparent;
+    text-decoration: none;
+    border: #081270;
+    border-radius: 5px;
+}
+
+
+/* Tablet and smaller desktop screens */
+
+@media (max-width: 1024px) {
+  #welcome {
+    width: 80%;
+    padding: 2rem;
+  }
+  .content {
+    font-size: 1.8rem;
+  }
+  .room-left {
+    width: 45%;
+    margin: 100px;
+  }
+  .room-right {
+    width: 20%;
+    margin: 10px 100px 100px 1px;
+  }
+  .menulist {
+    flex-basis: 40%;
+  }
+}
+
+
+/* Mobile screens */
+
+@media (max-width: 768px) {
+  #welcome {
+    width: 90%;
+    padding: 1.5rem;
+    top: 5vh;
+  }
+  .content {
+    font-size: 1.5rem;
+  }
+  .ww {
+    gap: 0.5rem;
+  }
+  .welcomeimg {
+    height: 3rem;
+    width: 3rem;
+  }
+  .hide {
+    height: 1rem;
+    width: 1rem;
+  }
+  #home {
+    padding: 3.75rem 1.875rem;
+    gap: 2rem;
+  }
+  #home p {
+    font-size: 1.5rem;
+  }
+  .room-left {
+    width: 80%;
+    margin: 50px;
+  }
+  .room-right {
+    width: 80%;
+    margin: 10px auto;
+  }
+  #headermenulist {
+    flex-direction: column;
+  }
+  .menulist {
+    flex-basis: 100%;
+    font-size: 1.5em;
+    margin-bottom: 15px;
+  }
+}
+
+/* Small mobile screens */
+
+@media (max-width: 480px) {
+  #welcome {
+    width: 95%;
+    padding: 1rem;
+  }
+  .content {
+    font-size: 1.2rem;
+  }
+  .ww {
+    gap: 0.2rem;
+  }
+  .welcomeimg {
+    height: 2rem;
+    width: 2rem;
+  }
+  .hide {
+    height: 0.8rem;
+    width: 0.8rem;
+  }
+  #home {
+    padding: 1.875rem 0.9375rem;
+    gap: 1rem;
+  }
+  .room-left {
+    width: 90%;
+  }
+  .room-right {
+    width: 90%;
+  }
+  .menulist {
+    font-size: 1.2em;
+  }
+}
